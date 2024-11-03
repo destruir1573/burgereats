@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+
+<title>BurgerEats</title>
+
+<link rel="stylesheet" href="index.css">
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="lanche.js"></script>
+
+</head>
+
+
+
+
+</script>
+
+
+<body>
+
+
+  
+<div class="container-topo">
+    <div class="topo">
+    <img src="imagens/hamburguer.png">
+     <h3 class="cor-fonte">Burger<span class="cor-fonte1">Eats</span></h3>
+</div>
+<div class="carrinho" onclick="toggleNotaFiscal()">
+    <img src="imagens/carrinho.png">
+    <div id="contador" class="contador">
+        
+    </div>    
+
+    </div> 
+
+</div>
+
+<div id="nota-fiscal" class="nota-fiscal">
+    <!---<div onclick="close()" class="close">X</div>
+    <button onclick="close()" class="close">X</button>-->
+    <h2 style="color: #ff2020;">Nota Fiscal</h2>
+    <p>Seu carrinho está vazio.</p>
+
+    <button type="submit">REALIZAR PEDIDO</button>
+  </div>
+
+    <div id="animacao" class="catalogo">
+        
+
+       <div class="linha1-cat">
+<div class="produto1">
+        <img src="imagens/x-burger.png"> 
+
+    <div class="x-burger">   
+
+        <h3 style="color: #ff2020;">X-BURGER</h3>
+
+    </div>   
+    <p>
+    Delicioso X-Burger com carne suculenta, queijo derretido e pão macio. Uma explosão de sabor em cada mordida!
+</p>   
+<hr>
+<p>
+Contem: Pao, Queijo, Tomate, Alface e Carne
+
+</p> 
+<br>
+<h3 style="color: #ff2020;">Valor: R$10.99</h3>
+
+<button onclick="adicionarAoCarrinho(0)">ADICIONAR A SACOLA</button>
+  
+</div>
+<!--produto 2-->
+<div class="produto2">
+
+    <img src="imagens/x-bacon.png">
+
+    <div class="x-bacon">
+
+        <h3 style="color: #ff2020;">X-BACON</h3>
+
+    </div>
+
+    <p>
+        Um hamburguer suculento com queijo derretido, alface, tomate e nosso molho especial.
+    </p>
+
+    <hr>
+    <p>Contem: Pao, Bacon, Carne, Queijo, Presunto, Tomate, Alface</p>
+    <br>
+    <h3 style="color: #ff2020;">Valor: R$15.99</h3>
+
+    <button onclick="adicionarAoCarrinho(2)">ADICIONAR A SACOLA</button>
+
+</div>
+
+</div>
+
+<div class="linha1-cat">
+<!--produto 3-->
+    <div class="produto3">
+        <img src="imagens/x-salada.png"> 
+
+        <div class="x-salada">   
+    
+            <h3 style="color: #ff2020;">X-SALADA</h3>
+    
+        </div>   
+        <p>
+            Uma combinaçao perfeita de hambúrguer suculento, alface fresca, tomate, queijo derretido e maionese especial, servido no pão macio. Simples, leve e delicioso!
+    </p>   
+    <hr>
+    <p>
+    Contem: Pao, Queijo, Presunto Tomate, Alface e Carne
+    </p> 
+    <br>
+    <h3 style="color: #ff2020;">Valor: R$12.99</h3>
+    
+    <button onclick="adicionarAoCarrinho(1)">ADICIONAR A SACOLA</button>  
+            
+</div>
+    
+<!--produto 4-->
+<div class="produto4">
+    <img src="imagens/x-tudo.png">
+
+    <div class="x-tudo">
+
+        <h3 style="color: #ff2020;">X-TUDO</h3>
+
+    </div>
+
+    <p>
+        O hambúrguer definitivo! Carne bovina suculenta, bacon crocante, presunto, queijo, ovo, alface, tomate, milho, batata palha e nosso molho especial. Um lanche completo e irresistível!
+    </p>
+
+    <hr>
+    <p>Contem: Pao, Bacon, Carne, Queijo, Presunto, Tomate, Alface, Ovo, Milho e Batata palha</p>
+    <h3 style="color: #ff2020;">Valor: R$20.99</h3>
+
+    <button onclick="adicionarAoCarrinho(3)">ADICIONAR A SACOLA</button>
+   
+    
+</div>
+</div>
+
+
+    
+<!--catalogo de combo
+
+<div class="catalogo-combos">
+    
+<div class="combo1">
+
+    <div class="imagens-combo">
+<img src="imagens/combo-xtudo.png">
+</div>
+
+
+
+</div>
+
+</div>
+
+</div>
